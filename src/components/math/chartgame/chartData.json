@@ -1,0 +1,694 @@
+
+[
+  {
+    "type": "bar",
+    "title": "Fruit Sold (Q1)",
+    "data": [
+      { "name": "Apple", "value": 40 },
+      { "name": "Banana", "value": 25 },
+      { "name": "Orange", "value": 35 },
+      { "name": "Grapes", "value": 20 },
+      { "name": "Mango", "value": 30 }
+    ],
+    "question": "How many more apples than bananas?",
+    "options": ["15", "10", "20", "5"],
+    "answer": "15"
+  },
+  {
+    "type": "pie",
+    "title": "Favorite Subjects (Q2)",
+    "data": [
+      { "name": "Math", "value": 30 },
+      { "name": "English", "value": 50 },
+      { "name": "Science", "value": 20 },
+      { "name": "History", "value": 15 },
+      { "name": "Art", "value": 10 }
+    ],
+    "question": "Which subject is the most liked?",
+    "options": ["Math", "English", "Science", "None"],
+    "answer": "English"
+  },
+  {
+    "type": "bar",
+    "title": "Monthly Sales (Q3)",
+    "data": [
+      { "name": "January", "value": 120 },
+      { "name": "February", "value": 150 },
+      { "name": "March", "value": 130 },
+      { "name": "April", "value": 160 },
+      { "name": "May", "value": 140 }
+    ],
+    "question": "Which month had the highest sales?",
+    "options": ["January", "February", "March", "April"],
+    "answer": "April"
+  },
+  {
+    "type": "pie",
+    "title": "Transportation Modes (Q4)",
+    "data": [
+      { "name": "Car", "value": 45 },
+      { "name": "Bus", "value": 25 },
+      { "name": "Train", "value": 15 },
+      { "name": "Bicycle", "value": 10 },
+      { "name": "Walk", "value": 5 }
+    ],
+    "question": "What percentage of people use a car?",
+    "options": ["45%", "25%", "15%", "50%"],
+    "answer": "45%"
+  },
+  {
+    "type": "bar",
+    "title": "Student Grades (Q5)",
+    "data": [
+      { "name": "A", "value": 15 },
+      { "name": "B", "value": 25 },
+      { "name": "C", "value": 30 },
+      { "name": "D", "value": 10 },
+      { "name": "F", "value": 5 }
+    ],
+    "question": "How many students received a grade of 'C' or higher?",
+    "options": ["70", "55", "40", "30"],
+    "answer": "70"
+  },
+  {
+    "type": "pie",
+    "title": "Website Traffic Source (Q6)",
+    "data": [
+      { "name": "Organic Search", "value": 40 },
+      { "name": "Social Media", "value": 30 },
+      { "name": "Direct", "value": 15 },
+      { "name": "Referral", "value": 10 },
+      { "name": "Email", "value": 5 }
+    ],
+    "question": "Which source accounts for the least amount of website traffic?",
+    "options": ["Social Media", "Direct", "Referral", "Email"],
+    "answer": "Email"
+  },
+  {
+    "type": "bar",
+    "title": "Vegetable Harvest (Q7)",
+    "data": [
+      { "name": "Carrot", "value": 50 },
+      { "name": "Potato", "value": 70 },
+      { "name": "Tomato", "value": 45 },
+      { "name": "Onion", "value": 60 },
+      { "name": "Spinach", "value": 30 }
+    ],
+    "question": "What is the total harvest of Carrots and Potatoes?",
+    "options": ["100", "120", "110", "130"],
+    "answer": "120"
+  },
+  {
+    "type": "pie",
+    "title": "Pet Ownership (Q8)",
+    "data": [
+      { "name": "Dogs", "value": 40 },
+      { "name": "Cats", "value": 30 },
+      { "name": "Birds", "value": 15 },
+      { "name": "Fish", "value": 10 },
+      { "name": "Other", "value": 5 }
+    ],
+    "question": "If there are 200 total pet owners, how many own dogs?",
+    "options": ["80", "60", "30", "40"],
+    "answer": "80"
+  },
+  {
+    "type": "bar",
+    "title": "Books Read Per Month (Q9)",
+    "data": [
+      { "name": "Fiction", "value": 12 },
+      { "name": "Non-Fiction", "value": 8 },
+      { "name": "Biography", "value": 5 },
+      { "name": "Fantasy", "value": 10 },
+      { "name": "Science Fiction", "value": 7 }
+    ],
+    "question": "What is the combined number of Fiction and Fantasy books read?",
+    "options": ["20", "22", "17", "19"],
+    "answer": "22"
+  },
+  {
+    "type": "pie",
+    "title": "Morning Beverage Choice (Q10)",
+    "data": [
+      { "name": "Coffee", "value": 60 },
+      { "name": "Tea", "value": 25 },
+      { "name": "Juice", "value": 10 },
+      { "name": "Water", "value": 5 }
+    ],
+    "question": "Which beverage is chosen by exactly a quarter of the people who don't drink coffee?",
+    "options": ["Tea", "Juice", "Water", "None of the above"],
+    "answer": "Juice"
+  },
+  {
+    "type": "bar",
+    "title": "Regional Population (Millions) (Q11)",
+    "data": [
+      { "name": "North", "value": 50 },
+      { "name": "South", "value": 75 },
+      { "name": "East", "value": 60 },
+      { "name": "West", "value": 45 },
+      { "name": "Central", "value": 30 }
+    ],
+    "question": "What is the difference in population between the South and North regions?",
+    "options": ["20 million", "25 million", "30 million", "15 million"],
+    "answer": "25 million"
+  },
+  {
+    "type": "pie",
+    "title": "Online Course Enrollment (Q12)",
+    "data": [
+      { "name": "Programming", "value": 35 },
+      { "name": "Design", "value": 20 },
+      { "name": "Marketing", "value": 25 },
+      { "name": "Data Science", "value": 10 },
+      { "name": "Photography", "value": 10 }
+    ],
+    "question": "If 400 students are enrolled in total, how many are in Design courses?",
+    "options": ["80", "100", "70", "40"],
+    "answer": "80"
+  },
+  {
+    "type": "bar",
+    "title": "Daily Commute Time (Minutes) (Q13)",
+    "data": [
+      { "name": "Less than 15", "value": 20 },
+      { "name": "15-30", "value": 45 },
+      { "name": "30-45", "value": 30 },
+      { "name": "45-60", "value": 15 },
+      { "name": "More than 60", "value": 10 }
+    ],
+    "question": "How many people commute for 30 minutes or less?",
+    "options": ["65", "75", "50", "45"],
+    "answer": "65"
+  },
+  {
+    "type": "pie",
+    "title": "Customer Feedback Ratings (Q14)",
+    "data": [
+      { "name": "Excellent", "value": 50 },
+      { "name": "Good", "value": 30 },
+      { "name": "Average", "value": 15 },
+      { "name": "Poor", "value": 5 }
+    ],
+    "question": "What percentage of customers rated their experience as 'Good' or 'Excellent'?",
+    "options": ["70%", "80%", "85%", "90%"],
+    "answer": "80%"
+  },
+  {
+    "type": "bar",
+    "title": "Energy Consumption (kWh) (Q15)",
+    "data": [
+      { "name": "Heating", "value": 200 },
+      { "name": "Cooling", "value": 150 },
+      { "name": "Lighting", "value": 80 },
+      { "name": "Appliances", "value": 120 },
+      { "name": "Other", "value": 50 }
+    ],
+    "question": "Which category consumes twice as much energy as 'Lighting'?",
+    "options": ["Cooling", "Appliances", "Heating", "Other"],
+    "answer": "Heating"
+  },
+  {
+    "type": "bar",
+    "title": "Website Visitors by Day (Q16)",
+    "data": [
+      { "name": "Mon", "value": 1500 },
+      { "name": "Tue", "value": 1800 },
+      { "name": "Wed", "value": 1600 },
+      { "name": "Thu", "value": 2000 },
+      { "name": "Fri", "value": 2200 }
+    ],
+    "question": "What was the total number of visitors from Monday to Wednesday?",
+    "options": ["4900", "5000", "5100", "4800"],
+    "answer": "4900"
+  },
+  {
+    "type": "pie",
+    "title": "Manufacturing Defects (Q17)",
+    "data": [
+      { "name": "Scratches", "value": 25 },
+      { "name": "Cracks", "value": 15 },
+      { "name": "Discoloration", "value": 10 },
+      { "name": "Misfit Parts", "value": 30 },
+      { "name": "Other", "value": 20 }
+    ],
+    "question": "Which defect type is the most common?",
+    "options": ["Scratches", "Cracks", "Discoloration", "Misfit Parts"],
+    "answer": "Misfit Parts"
+  },
+  {
+    "type": "bar",
+    "title": "Customer Age Groups (Q18)",
+    "data": [
+      { "name": "18-24", "value": 60 },
+      { "name": "25-34", "value": 90 },
+      { "name": "35-44", "value": 75 },
+      { "name": "45-54", "value": 50 },
+      { "name": "55+", "value": 30 }
+    ],
+    "question": "Which two age groups combined have approximately the same number of customers as the '25-34' group?",
+    "options": ["18-24 and 55+", "35-44 and 45-54", "45-54 and 55+", "18-24 and 45-54"],
+    "answer": "18-24 and 45-54"
+  },
+  {
+    "type": "pie",
+    "title": "Marketing Budget Allocation (Q19)",
+    "data": [
+      { "name": "Digital Ads", "value": 40 },
+      { "name": "Social Media", "value": 25 },
+      { "name": "Print Media", "value": 15 },
+      { "name": "Events", "value": 10 },
+      { "name": "TV Ads", "value": 10 }
+    ],
+    "question": "If the total budget is $10,000, how much is allocated to Print Media?",
+    "options": ["$1,500", "$2,500", "$1,000", "$4,000"],
+    "answer": "$1,500"
+  },
+  {
+    "type": "bar",
+    "title": "Software Bug Categories (Q20)",
+    "data": [
+      { "name": "UI/UX", "value": 25 },
+      { "name": "Functionality", "value": 40 },
+      { "name": "Performance", "value": 15 },
+      { "name": "Security", "value": 10 },
+      { "name": "Compatibility", "value": 10 }
+    ],
+    "question": "What is the ratio of Functionality bugs to Security bugs?",
+    "options": ["4:1", "1:4", "2:1", "1:2"],
+    "answer": "4:1"
+  },
+  {
+    "type": "pie",
+    "title": "Preferred Learning Methods (Q21)",
+    "data": [
+      { "name": "Visual", "value": 45 },
+      { "name": "Auditory", "value": 20 },
+      { "name": "Reading/Writing", "value": 20 },
+      { "name": "Kinesthetic", "value": 15 }
+    ],
+    "question": "Which learning method is preferred by less than 20% of respondents?",
+    "options": ["Visual", "Auditory", "Kinesthetic", "Reading/Writing"],
+    "answer": "Kinesthetic"
+  },
+  {
+    "type": "bar",
+    "title": "Top Selling Product Categories (Q22)",
+    "data": [
+      { "name": "Electronics", "value": 300 },
+      { "name": "Apparel", "value": 250 },
+      { "name": "Home Goods", "value": 180 },
+      { "name": "Books", "value": 120 },
+      { "name": "Sports", "value": 90 }
+    ],
+    "question": "How much more revenue did Electronics generate than Home Goods?",
+    "options": ["$100", "$120", "$150", "$70"],
+    "answer": "$120"
+  },
+  {
+    "type": "pie",
+    "title": "Reasons for Travel (Q23)",
+    "data": [
+      { "name": "Leisure", "value": 55 },
+      { "name": "Business", "value": 25 },
+      { "name": "Family Visit", "value": 10 },
+      { "name": "Study", "value": 5 },
+      { "name": "Medical", "value": 5 }
+    ],
+    "question": "What proportion of travel is for leisure compared to all other reasons combined?",
+    "options": ["More than half", "Less than half", "Exactly half", "Cannot determine"],
+    "answer": "More than half"
+  },
+  {
+    "type": "bar",
+    "title": "Social Media Platform Usage (Hours/Week) (Q24)",
+    "data": [
+      { "name": "Facebook", "value": 8 },
+      { "name": "Instagram", "value": 6 },
+      { "name": "TikTok", "value": 10 },
+      { "name": "X", "value": 4 },
+      { "name": "YouTube", "value": 7 }
+    ],
+    "question": "Which platform is used for the most hours per week?",
+    "options": ["Facebook", "Instagram", "TikTok", "YouTube"],
+    "answer": "TikTok"
+  },
+  {
+    "type": "pie",
+    "title": "Favourite Ice Cream Flavors (Q25)",
+    "data": [
+      { "name": "Vanilla", "value": 30 },
+      { "name": "Chocolate", "value": 35 },
+      { "name": "Strawberry", "value": 15 },
+      { "name": "Mint Chip", "value": 10 },
+      { "name": "Cookie Dough", "value": 10 }
+    ],
+    "question": "If 120 people were surveyed, how many prefer Strawberry?",
+    "options": ["15", "18", "12", "20"],
+    "answer": "18"
+  },
+  {
+    "type": "bar",
+    "title": "Cloud Service Usage (Q26)",
+    "data": [
+      { "name": "AWS", "value": 50 },
+      { "name": "Azure", "value": 35 },
+      { "name": "Google Cloud", "value": 20 },
+      { "name": "IBM Cloud", "value": 10 },
+      { "name": "Other", "value": 5 }
+    ],
+    "question": "What is the total number of users for the top three cloud services?",
+    "options": ["105", "110", "115", "120"],
+    "answer": "105"
+  },
+  {
+    "type": "pie",
+    "title": "Recycling Habits (Q27)",
+    "data": [
+      { "name": "Plastic", "value": 40 },
+      { "name": "Paper", "value": 30 },
+      { "name": "Glass", "value": 15 },
+      { "name": "Metal", "value": 10 },
+      { "name": "Electronics", "value": 5 }
+    ],
+    "question": "Which material is recycled more than glass and metal combined?",
+    "options": ["Plastic", "Paper", "Electronics", "None of these"],
+    "answer": "Plastic"
+  },
+  {
+    "type": "bar",
+    "title": "Customer Service Call Reasons (Q28)",
+    "data": [
+      { "name": "Billing Inquiry", "value": 70 },
+      { "name": "Technical Support", "value": 90 },
+      { "name": "Product Info", "value": 40 },
+      { "name": "Complaint", "value": 20 },
+      { "name": "Other", "value": 10 }
+    ],
+    "question": "How many more calls were for Technical Support than for Billing Inquiry?",
+    "options": ["10", "15", "20", "25"],
+    "answer": "20"
+  },
+  {
+    "type": "pie",
+    "title": "Primary News Source (Q29)",
+    "data": [
+      { "name": "TV News", "value": 35 },
+      { "name": "Online News", "value": 40 },
+      { "name": "Social Media", "value": 15 },
+      { "name": "Print Newspaper", "value": 5 },
+      { "name": "Radio", "value": 5 }
+    ],
+    "question": "What is the combined percentage of people who get news from Online News and Social Media?",
+    "options": ["50%", "55%", "60%", "45%"],
+    "answer": "55%"
+  },
+  {
+    "type": "bar",
+    "title": "Employee Tenure (Years) (Q30)",
+    "data": [
+      { "name": "<1 Year", "value": 20 },
+      { "name": "1-3 Years", "value": 45 },
+      { "name": "3-5 Years", "value": 30 },
+      { "name": "5-10 Years", "value": 15 },
+      { "name": "10+ Years", "value": 10 }
+    ],
+    "question": "What percentage of employees have been with the company for 3 years or less?",
+    "options": ["65%", "70%", "55%", "60%"],
+    "answer": "65%"
+  },
+  {
+    "type": "pie",
+    "title": "Energy Source Mix (Q31)",
+    "data": [
+      { "name": "Solar", "value": 20 },
+      { "name": "Wind", "value": 25 },
+      { "name": "Hydro", "value": 15 },
+      { "name": "Fossil Fuels", "value": 30 },
+      { "name": "Nuclear", "value": 10 }
+    ],
+    "question": "Which energy source contributes the least?",
+    "options": ["Solar", "Wind", "Hydro", "Nuclear"],
+    "answer": "Nuclear"
+  },
+  {
+    "type": "bar",
+    "title": "Fitness Class Popularity (Q32)",
+    "data": [
+      { "name": "Yoga", "value": 60 },
+      { "name": "Zumba", "value": 45 },
+      { "name": "Spin", "value": 70 },
+      { "name": "Pilates", "value": 35 },
+      { "name": "Bootcamp", "value": 50 }
+    ],
+    "question": "Which class has more participants than Yoga but less than Spin?",
+    "options": ["Zumba", "Pilates", "Bootcamp", "None"],
+    "answer": "Bootcamp"
+  },
+  {
+    "type": "pie",
+    "title": "Household Waste Composition (Q33)",
+    "data": [
+      { "name": "Organic", "value": 35 },
+      { "name": "Recyclables", "value": 40 },
+      { "name": "Landfill", "value": 20 },
+      { "name": "Hazardous", "value": 5 }
+    ],
+    "question": "What is the largest component of household waste?",
+    "options": ["Organic", "Recyclables", "Landfill", "Hazardous"],
+    "answer": "Recyclables"
+  },
+  {
+    "type": "bar",
+    "title": "Smartphone Market Share (Q34)",
+    "data": [
+      { "name": "Samsung", "value": 30 },
+      { "name": "Apple", "value": 25 },
+      { "name": "Xiaomi", "value": 15 },
+      { "name": "Huawei", "value": 10 },
+      { "name": "Other", "value": 20 }
+    ],
+    "question": "Which two brands combined have a higher market share than Samsung?",
+    "options": ["Apple & Xiaomi", "Xiaomi & Huawei", "Apple & Other", "Huawei & Other"],
+    "answer": "Apple & Other"
+  },
+  {
+    "type": "pie",
+    "title": "Investment Portfolio Breakdown (Q35)",
+    "data": [
+      { "name": "Stocks", "value": 50 },
+      { "name": "Bonds", "value": 25 },
+      { "name": "Real Estate", "value": 15 },
+      { "name": "Cash", "value": 10 }
+    ],
+    "question": "If the total portfolio value is $200,000, how much is invested in Real Estate?",
+    "options": ["$30,000", "$40,000", "$20,000", "$50,000"],
+    "answer": "$30,000"
+  },
+  {
+    "type": "bar",
+    "title": "Rainfall by Season (mm) (Q36)",
+    "data": [
+      { "name": "Spring", "value": 150 },
+      { "name": "Summer", "value": 100 },
+      { "name": "Autumn", "value": 200 },
+      { "name": "Winter", "value": 120 }
+    ],
+    "question": "Which season received the least amount of rainfall?",
+    "options": ["Spring", "Summer", "Autumn", "Winter"],
+    "answer": "Summer"
+  },
+  {
+    "type": "pie",
+    "title": "Meal Preferences (Q37)",
+    "data": [
+      { "name": "Breakfast", "value": 20 },
+      { "name": "Lunch", "value": 35 },
+      { "name": "Dinner", "value": 40 },
+      { "name": "Snacks", "value": 5 }
+    ],
+    "question": "What percentage of people prefer Dinner?",
+    "options": ["35%", "40%", "20%", "5%"],
+    "answer": "40%"
+  },
+  {
+    "type": "bar",
+    "title": "Most Played Video Game Genres (Q38)",
+    "data": [
+      { "name": "Action", "value": 80 },
+      { "name": "Adventure", "value": 50 },
+      { "name": "RPG", "value": 70 },
+      { "name": "Strategy", "value": 30 },
+      { "name": "Puzzle", "value": 20 }
+    ],
+    "question": "How many more players prefer Action games over Puzzle games?",
+    "options": ["50", "60", "70", "40"],
+    "answer": "60"
+  },
+  {
+    "type": "pie",
+    "title": "Reasons for Job Change (Q39)",
+    "data": [
+      { "name": "Better Pay", "value": 40 },
+      { "name": "Career Growth", "value": 30 },
+      { "name": "Work-Life Balance", "value": 15 },
+      { "name": "New Challenge", "value": 10 },
+      { "name": "Other", "value": 5 }
+    ],
+    "question": "Which reason accounts for exactly double the percentage of 'Work-Life Balance'?",
+    "options": ["Better Pay", "Career Growth", "New Challenge", "Other"],
+    "answer": "Career Growth"
+  },
+  {
+    "type": "bar",
+    "title": "Daily Water Consumption (Litres) (Q40)",
+    "data": [
+      { "name": "<1L", "value": 10 },
+      { "name": "1-2L", "value": 40 },
+      { "name": "2-3L", "value": 35 },
+      { "name": "3-4L", "value": 10 },
+      { "name": ">4L", "value": 5 }
+    ],
+    "question": "What is the total percentage of people who drink 2 litres or more of water daily?",
+    "options": ["45%", "50%", "55%", "60%"],
+    "answer": "50%"
+  },
+  {
+    "type": "pie",
+    "title": "Music Genre Popularity (Q41)",
+    "data": [
+      { "name": "Pop", "value": 35 },
+      { "name": "Rock", "value": 25 },
+      { "name": "Hip Hop", "value": 20 },
+      { "name": "Classical", "value": 10 },
+      { "name": "Jazz", "value": 10 }
+    ],
+    "question": "If 500 people were surveyed, how many prefer Rock music?",
+    "options": ["100", "125", "150", "75"],
+    "answer": "125"
+  },
+  {
+    "type": "bar",
+    "title": "Household Energy Use (Q42)",
+    "data": [
+      { "name": "Heating", "value": 40 },
+      { "name": "Cooling", "value": 25 },
+      { "name": "Water Heating", "value": 15 },
+      { "name": "Lighting", "value": 10 },
+      { "name": "Appliances", "value": 10 }
+    ],
+    "question": "Which category consumes the most energy?",
+    "options": ["Cooling", "Heating", "Water Heating", "Appliances"],
+    "answer": "Heating"
+  },
+  {
+    "type": "pie",
+    "title": "Preferred Payment Methods (Q43)",
+    "data": [
+      { "name": "Credit Card", "value": 45 },
+      { "name": "Debit Card", "value": 30 },
+      { "name": "Cash", "value": 15 },
+      { "name": "Mobile Pay", "value": 10 }
+    ],
+    "question": "What percentage of people prefer card payments (Credit or Debit)?",
+    "options": ["70%", "75%", "80%", "65%"],
+    "answer": "75%"
+  },
+  {
+    "type": "bar",
+    "title": "Tourist Arrivals by Country (Q44)",
+    "data": [
+      { "name": "USA", "value": 120 },
+      { "name": "China", "value": 90 },
+      { "name": "Germany", "value": 70 },
+      { "name": "UK", "value": 60 },
+      { "name": "France", "value": 50 }
+    ],
+    "question": "Which country has less than half the tourist arrivals of the USA?",
+    "options": ["China", "Germany", "UK", "France"],
+    "answer": "France"
+  },
+  {
+    "type": "pie",
+    "title": "Favorite Hobbies (Q45)",
+    "data": [
+      { "name": "Reading", "value": 25 },
+      { "name": "Sports", "value": 20 },
+      { "name": "Gaming", "value": 30 },
+      { "name": "Cooking", "value": 15 },
+      { "name": "Gardening", "value": 10 }
+    ],
+    "question": "If there are 400 people, how many enjoy Gaming?",
+    "options": ["100", "120", "80", "60"],
+    "answer": "120"
+  },
+  {
+    "type": "bar",
+    "title": "Annual Income Brackets (Q46)",
+    "data": [
+      { "name": "<$30K", "value": 15 },
+      { "name": "$30-50K", "value": 30 },
+      { "name": "$50-80K", "value": 40 },
+      { "name": "$80-120K", "value": 25 },
+      { "name": ">$120K", "value": 10 }
+    ],
+    "question": "What is the total number of people earning between $30K and $80K?",
+    "options": ["70", "75", "65", "80"],
+    "answer": "70"
+  },
+  {
+    "type": "pie",
+    "title": "Dietary Preferences (Q47)",
+    "data": [
+      { "name": "Omnivore", "value": 70 },
+      { "name": "Vegetarian", "value": 20 },
+      { "name": "Vegan", "value": 5 },
+      { "name": "Other", "value": 5 }
+    ],
+    "question": "What is the combined percentage of Vegetarian and Vegan diets?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "answer": "25%"
+  },
+  {
+    "type": "bar",
+    "title": "Company Department Sizes (Q48)",
+    "data": [
+      { "name": "Engineering", "value": 120 },
+      { "name": "Marketing", "value": 60 },
+      { "name": "Sales", "value": 90 },
+      { "name": "HR", "value": 30 },
+      { "name": "Support", "value": 50 }
+    ],
+    "question": "Which department has exactly half the number of employees as the Engineering department?",
+    "options": ["Marketing", "Sales", "HR", "Support"],
+    "answer": "Marketing"
+  },
+  {
+    "type": "pie",
+    "title": "Causes of Air Pollution (Q49)",
+    "data": [
+      { "name": "Vehicles", "value": 40 },
+      { "name": "Industry", "value": 30 },
+      { "name": "Agriculture", "value": 15 },
+      { "name": "Residential", "value": 10 },
+      { "name": "Other", "value": 5 }
+    ],
+    "question": "What are the top two causes of air pollution?",
+    "options": ["Vehicles & Industry", "Industry & Agriculture", "Vehicles & Residential", "Agriculture & Residential"],
+    "answer": "Vehicles & Industry"
+  },
+  {
+    "type": "bar",
+    "title": "Hospital Admissions by Illness (Q50)",
+    "data": [
+      { "name": "Flu", "value": 150 },
+      { "name": "Pneumonia", "value": 80 },
+      { "name": "Heart Disease", "value": 120 },
+      { "name": "Diabetes", "value": 90 },
+      { "name": "Injuries", "value": 60 }
+    ],
+    "question": "How many total admissions were for Flu, Pneumonia, and Injuries combined?",
+    "options": ["290", "300", "310", "280"],
+    "answer": "290"
+  }
+]
