@@ -4,7 +4,7 @@ import chemistryData from "./chemistryData.json";
 export default function MoleculeGame() {
   const atomsList = chemistryData.atoms;
   const moleculeDatabase = chemistryData.molecules;
-
+  
   const [workspace, setWorkspace] = useState([]);
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState("");
@@ -18,7 +18,7 @@ export default function MoleculeGame() {
     e.dataTransfer.setData("atom", symbol);
   }
 
-  // Mobile: tap to add atom
+  // Mobile tap handler
   function handleTouchAtom(symbol) {
     setWorkspace((prev) => [...prev, symbol]);
   }
@@ -35,7 +35,7 @@ export default function MoleculeGame() {
 
     if (moleculeDatabase[formula]) {
       setMessage(`✅ You made ${moleculeDatabase[formula]} (${formula})!`);
-      setScore(score + 10);
+      setScore((prev) => prev + 10);
     } else {
       setMessage(`❌ Not a valid molecule: ${formula}`);
     }
@@ -52,19 +52,21 @@ export default function MoleculeGame() {
       <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-2xl text-gray-900">
         
         {/* Atoms List */}
-        <div className="flex flex-wrap justify-center gap-4 mb-6">
-          {atomsList.map((atom) => (
-            <div
-              key={atom.symbol}
-              className={`w-14 h-14 ${atom.color} rounded-full flex items-center justify-center text-white text-lg font-bold cursor-grab shadow-lg`}
-              draggable
-              onDragStart={(e) => handleDragStart(e, atom.symbol)} // Desktop
-              onClick={() => handleTouchAtom(atom.symbol)} // Mobile tap
-              title={atom.name}
-            >
-              {atom.symbol}
-            </div>
-          ))}
+        <div className="mb-6 overflow-x-auto">
+          <div className="flex flex-nowrap sm:flex-wrap justify-start gap-4">
+            {atomsList.map((atom) => (
+              <div
+                key={atom.symbol}
+                className={`w-14 h-14 ${atom.color} rounded-full flex-shrink-0 flex items-center justify-center text-white text-lg font-bold cursor-grab shadow-lg`}
+                draggable
+                onDragStart={(e) => handleDragStart(e, atom.symbol)} // Desktop drag
+                onClick={() => handleTouchAtom(atom.symbol)} // Mobile tap
+                title={atom.name}
+              >
+                {atom.symbol}
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Workspace */}
@@ -74,7 +76,7 @@ export default function MoleculeGame() {
           onDragOver={(e) => e.preventDefault()}
         >
           {workspace.length === 0 ? (
-            <p className="text-gray-500">Drag atoms here</p>
+            <p className="text-gray-500">Drag atoms here or tap on mobile</p>
           ) : (
             <div className="flex items-center gap-8 relative">
               {workspace.map((atom, index) => {
@@ -119,8 +121,10 @@ export default function MoleculeGame() {
 
         {/* Info */}
         <div className="mt-4">
-          <p className="font-semibold text-lg text-gray-800">Score: {score}</p>
-          <p className="mt-3 text-md text-indigo-600 font-medium italic max-w-md leading-relaxed">
+          <p className="font-semibold text-lg text-gray-800 dark:text-gray-100">
+            Score: {score}
+          </p>
+          <p className="mt-3 text-md text-indigo-600 dark:text-indigo-400 font-medium italic max-w-md leading-relaxed">
             {message}
           </p>
         </div>
