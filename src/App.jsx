@@ -8,7 +8,7 @@ import Physics from './components/physics/Physics';
 import Chemistry from './components/chemistry/Chemistry';
 import English from './components/english/English';
 import General from './components/General/General';
-// import MathQuiz from './components/math/mathquiz/mathQuiz';
+import MathQuiz from './components/math/mathquiz/MathQuiz';
 import Equation from './components/math/equation/Equation';
 import SynonymGame from './components/english/synonym/SynonymGame';
 import SpellingScramble from './components/english/wordscrambled/SpellingScramble';
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
 
         <Route path="/math" element={<Math />}> </Route>
-{/*           <Route path="math-quiz" element={<MathQuiz />} /> */}
+          <Route path="math-quiz" element={<MathQuiz />} />
               <Route path="chart-game" element={<ChartGame/>} />
           <Route path="equation-solver" element={<Equation />} />
       <Route path="synonym-game" element={<SynonymGame />} />
