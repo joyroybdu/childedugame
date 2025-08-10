@@ -5,12 +5,12 @@ import math2 from '../../assets/math/math2.jpg';
 import Footer from '../shared/Footer';
 
 const cards = [
-  // {
-  //   id: 1,
-  //   title: "Quick Math Quiz: Boost Your Speed & Accuracy",
-  //   gameName: "math-quiz",
-  //   image: math1,
-  // },
+  {
+    id: 1,
+    title: "Quick Math Quiz: Boost Your Speed & Accuracy",
+    gameName: "math-quiz",
+    image: math1,
+  },
   {
     id: 2,
     title: "Equation Solver",
